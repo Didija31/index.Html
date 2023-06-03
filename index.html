@@ -4,32 +4,36 @@
     <meta charset="UTF-8" />
     <title>checkpoint Html</title>
     <!--Icone de l'onglet -->
-    <link rel="shotcurt icon" href="" />
+    <link rel="stylesheet" href="style.CSS" />
   </head>
-  <body>
+  
     <header>
-      <nav>
+      <nav class="navbar">
+        <a href="#">
+          <h1 class="logo_title">ALBADI IMMO</h1>
+        </a>
         <ul>
-          <li id="logo"><a href="#">Albadi Immo</a></li>
           <li><a href="#">Accueil</a></li>
-          <li><a href="#présentation">à propos</a></li>
+          <li><a href="#">à propos</a></li>
           <li><a href="#">Travail</a></li>
           <li><a href="#">CV</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+    </header>
+    <body>
       <div id="imagePrincipale">
-        <h1>Albadi Immo</h1>
+        <h1 class="title">Albadi Immo</h1>
         <div id="premierTrait">
-          <h3>Studios meublés</h3>
+          <h3 class="title3">Appartements Meublés</h3>
         </div>
       </div>
-    </header>
+    </body>
     <main>
       <section id="présentation">
         <div id="textIntro">
-          <h2>UN LIEU UNIQUE, POUR UN SEJOUR UNIQUE</h2>
-          <p>
+          <h2 class="title2">UN LIEU UNIQUE, POUR UN SEJOUR UNIQUE</h2>
+          <p class="box">
             Superbe appartement 3 pièces au coeur des Almadies avec vue sur la
             mer. <br />
             Ce T3 lumineux de 60 m2 est situé dans une résidence sécurisée
@@ -38,29 +42,31 @@
           </p>
         </div>
         <div id="prestations">
-          <div class="imagesprestations">
-            <h4>Nous trouver</h4>
-            <a href="#"><img src="téléchargement.jpeg" alt="photo" /></a> <br><br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qsbkZ7gIKnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="imagesprestation" >
+            
           </div>
         </div>
+          <h2 class="title2"></h2>
+        </div>
       </section>
-      <section id="àpropos">
-        <h2>Et tant à découvrir...</h2>
+      <section id="section">
+        <h2 class="title5">Et tant à découvrir...</h2>
         <ul>
-          <li id="salledesport"><p>Une salle de Sport</p></li>
-          <li id="balconvuesurmer"><p>Un balcon avec vue sur la Mer</p></li>
+          <li id="salledesport"><p>Une salle de sport</p></li>
+            <li id="balconvuesurmer"></li><p> Un balcon avec vue sur la Mer </p></li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <h2>Contactez-nous</h2>
-      <form>
-        <input placeholder="Nom" />
+      <div class="grid"></div>
+      <h2 class="title2">Contactez-nous</h2>
+      <form action="">
+        <input type="text" id="firstname" placeholder="Prénom" />
+        <input type="text" id="surname" placeholder="Nom" />
         <input placeholder="E-mail" />
         <textarea placeholder="Votre message ici..."></textarea>
-        <button>Envoyer</button>
+        <input type="submit" value="Valider" id="btn">
       </form>
       <div id="deuxièmeTrait"></div>
       <div id="copyrightEtIcons">

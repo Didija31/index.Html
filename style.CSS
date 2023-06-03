@@ -1,0 +1,151 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'ROBOTO', sans-serif;
+}
+a{
+    text-decoration: none; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #1d1d1d;
+    color: #fff;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.logo_title, .navbar ul li a { color: #fff; }
+.navbar ul li a {
+padding: 12px;
+margin: 0 6px;
+}
+.navbar ul li a:hover{
+    color: #1d1d1d;
+    background-color: #ffb42a;
+    border-radius: 4px;
+}
+
+/* ******** IMAGE PRINCIPALE ********* */
+body {
+    font-family: 'ROBOTO', sans-serif;
+    background:url(image-appart.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    padding-top: 20px;
+    height: 799px;
+}
+.container .overlay {
+    background-color: rgba(0, 0, 0, 0,5);
+    height: 100%;
+    width: 100%;
+}
+.title {
+    color: burlywood;
+    font-size:6em;
+    text-align: center;
+    word-spacing: 5px;
+    margin: 30px 0;
+    margin-top: 80px;
+    font-family: 'ROBOTO', sans-serif;
+
+}
+.title3 {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 4px;
+    margin: 20px;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px burlywood;
+    font-family: 'ROBOTO', sans-serif;
+}
+
+.title2 {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 4px;
+
+}
+.box{
+    padding-left: 50px;
+    padding-right: 50px ;
+    padding-bottom: 50px ;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+.title4 {
+    color: black;
+    font-size: x-large;
+    text-align: left;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+#section {
+    text-align: center;
+}
+.title5 {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+.box2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+
+/* ************FOOTER************* */
+footer {
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+    form {
+        margin: 0 auto;
+        max-width: 900px;
+    }
+    input, textarea, button {
+        border: none;
+        width: 55%;
+        padding: 15px 10px;
+        margin: 1px 0;
+        font-size: 1,2em;
+        font-family: 'ROBOTO', sans-serif;
+        border-radius: 8px;
+    }
+    textarea {
+        min-height: 120px;
+    }
+    #btn {
+        font-size: 1.5em;
+        background-color: #FFFAE1;
+    }
+    #btn:hover {
+        background-color: #e55039;
+        color:#FFFAE1;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    #deuxièmeTrait {
+        height: 1px;
+        width: 75%;
+        background-color: #FFFAE1;
+        margin: 60px auto;
+    }
